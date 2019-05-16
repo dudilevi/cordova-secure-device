@@ -26,6 +26,14 @@
 
 - (void)pluginInitialize
 {
+    UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Do you want to say hello?"
+                                                message:@"More info..."
+                                               delegate:self
+                                      cancelButtonTitle:@"Cancel"
+                                      otherButtonTitles:@"Say Hello",nil];
+    [alert show];
+    [alert release];
+ 
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(onResume:)
                                                  name:UIApplicationDidBecomeActiveNotification object:nil];
     [self checkDevice];
