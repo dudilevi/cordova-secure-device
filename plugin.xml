@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<plugin id="outsystems-secure-device" version="1.0.1" xmlns="http://apache.org/cordova/ns/plugins/1.0" xmlns:android="http://schemas.android.com/apk/res/android">
+<plugin id="outsystems-secure-device" version="2.0.1" xmlns="http://apache.org/cordova/ns/plugins/1.0" xmlns:android="http://schemas.android.com/apk/res/android">
     <name>secureDevice</name>
     <description>Stops app from running if device is not secure, i.e. it is jailbroken, rooted, or doesn't have a passcode set.</description>
     <author>André Vieira</author>
