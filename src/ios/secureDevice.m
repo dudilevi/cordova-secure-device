@@ -34,9 +34,11 @@
     [alert show];
     [alert release];
  
+ /*
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(onResume:)
                                                  name:UIApplicationDidBecomeActiveNotification object:nil];
     [self checkDevice];
+ */
 }
 
 - (void) onResume:(UIApplication *)application 
