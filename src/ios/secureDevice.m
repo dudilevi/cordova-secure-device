@@ -44,7 +44,7 @@
 
     if (jailbroken || ( checkPattern && (status == LNPasscodeStatusDisabled || status == LNPasscodeStatusUnknown))) {
         
-        NSString* alertMessage = @"This application does not run on a device that is rooted.";
+        NSString* alertMessage = @"אפליצקיה זו חסומה מלרוץ על מכשירים פרוצים.";
         NSString* customAlertCloseButtonText = [self.commandDelegate.settings objectForKey:@"secureplugindialogcloselabel"];
         NSString *alertCloseButtonText = customAlertCloseButtonText ? customAlertCloseButtonText : @"Close";
         
