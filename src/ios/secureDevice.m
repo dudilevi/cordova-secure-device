@@ -25,20 +25,12 @@
 @implementation secureDevice
 
 - (void)pluginInitialize
-{
-    UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Do you like beer?"
-                                                message:@"More info..."
-                                               delegate:self
-                                      cancelButtonTitle:@"Cancel"
-                                      otherButtonTitles:@"Say Hello",nil];
-    [alert show];
-    [alert release];
+{ 
  
- /*
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(onResume:)
                                                  name:UIApplicationDidBecomeActiveNotification object:nil];
     [self checkDevice];
- */
+ 
 }
 
 - (void) onResume:(UIApplication *)application 
