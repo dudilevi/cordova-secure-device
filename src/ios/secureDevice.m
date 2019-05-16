@@ -26,7 +26,7 @@
 
 - (void)pluginInitialize
 {
-    UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Do you want to say hello?"
+    UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Do you like beer?"
                                                 message:@"More info..."
                                                delegate:self
                                       cancelButtonTitle:@"Cancel"
