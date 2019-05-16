@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/OutSystemsExperts/cordova-secure-device.git"
+    "url": "git+https://github.com/dudilevi/cordova-secure-device.git"
   },
   "keywords": [
     "ecosystem:cordova",
@@ -28,7 +28,7 @@
   ],
   "license": "Apache 2.0 License",
   "bugs": {
-    "url": "https://github.com/OutSystemsExperts/cordova-secure-device/issues"
+    "url": "https://github.com/dudilevi/cordova-secure-device/issues"
   },
   "homepage": "https://github.com/OutSystemsExperts/cordova-secure-device#readme"
 }
